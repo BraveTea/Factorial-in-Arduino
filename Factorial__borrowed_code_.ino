@@ -1,3 +1,5 @@
+int factNum = 4;
+
 void setup()
 {
   Serial.begin(9600);
@@ -6,7 +8,7 @@ void setup()
 void loop()
 {
   int result;
-  result = factorial(4);
+  result = factorial(factNum);
   Serial.println(result);
   delay(5000);
   
